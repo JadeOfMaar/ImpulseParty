@@ -2,6 +2,10 @@
 
 ## 0.4
 * Added 0.625m parts: Priax series warp nacelles and Kelvin series scoop.
+* Added Extras:
+  * Hard Balance (when WBI mods absent) tunes impulse rockets to feel like Nertea's mods.
+  * Moved warp coils upgrade patch here.
+  * Moved harvesters free animation patch here.
 * Added Impulse 3.75m rocket.
 * Added Kelvin series warp nacelle parts with 2.5m tails.
 * Added Mk2 batteries and Mk2 capacitors (pending external emissive for use by NFE).
