@@ -1,0 +1,152 @@
+@PART[impp_scoopS3]
+{
+	@MODEL
+	{
+		@model = ImpulseParty/Parts/Things/scoopS3Loop
+	}
+	!MODULE[ModuleAnimationGroup]:NEEDS[!Restock] {}
+	!MODULE[ModuleRestockISRUAnimation]:NEEDS[Restock] {}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		animationName = spinS2Loop
+		actionGUIName = Toggle Spin
+		startEventGUIName = Spin Start
+		endEventGUIName = Spin Stop
+		allowAnimationWhileShielded = False
+		eventAvailableEditor = False
+		layer = 1
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		animationName = scoopLights_S2_S3
+		actionGUIName = Toggle Lights
+		startEventGUIName = Lights On
+		endEventGUIName = Lights Off
+		allowAnimationWhileShielded = False
+		layer = 2
+	}
+}
+@PART[impp_scoopS2]
+{
+	@MODEL
+	{
+		@model = ImpulseParty/Parts/Things/scoopS2Loop
+	}
+	!MODULE[ModuleAnimationGroup]:NEEDS[!Restock] {}
+	!MODULE[ModuleRestockISRUAnimation]:NEEDS[Restock] {}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		animationName = spinS2Loop
+		actionGUIName = Toggle Spin
+		startEventGUIName = Spin Start
+		endEventGUIName = Spin Stop
+		allowAnimationWhileShielded = False
+		eventAvailableEditor = False
+		layer = 1
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		animationName = scoopLights_S2_S3
+		actionGUIName = Toggle Lights
+		startEventGUIName = Lights On
+		endEventGUIName = Lights Off
+		allowAnimationWhileShielded = False
+		layer = 2
+	}
+}
+
+@PART[impp_scoopMk2]
+{
+	@MODEL
+	{
+		@model = ImpulseParty/Parts/Things/scoopMk2Loop
+	}
+	!MODULE[ModuleAnimationGroup]:NEEDS[!Restock] {}
+	!MODULE[ModuleRestockISRUAnimation]:NEEDS[Restock] {}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		animationName = spinS1Loop
+		actionGUIName = Toggle Spin
+		startEventGUIName = Spin Start
+		endEventGUIName = Spin Stop
+		allowAnimationWhileShielded = False
+		eventAvailableEditor = False
+		layer = 1
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		animationName = scoopLights_Mk2
+		actionGUIName = Toggle Lights
+		startEventGUIName = Lights On
+		endEventGUIName = Lights Off
+		allowAnimationWhileShielded = False
+		layer = 2
+	}
+}
+@PART[impp_scoopS1]
+{
+	@MODEL
+	{
+		@model = ImpulseParty/Parts/Things/scoopS1Loop
+	}
+	!MODULE[ModuleAnimationGroup]:NEEDS[!Restock] {}
+	!MODULE[ModuleRestockISRUAnimation]:NEEDS[Restock] {}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		animationName = spinS1Loop
+		actionGUIName = Toggle Spin
+		startEventGUIName = Spin Start
+		endEventGUIName = Spin Stop
+		allowAnimationWhileShielded = False
+		eventAvailableEditor = False
+		layer = 1
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		animationName = scoopLights_S1
+		actionGUIName = Toggle Lights
+		startEventGUIName = Lights On
+		endEventGUIName = Lights Off
+		allowAnimationWhileShielded = False
+		layer = 2
+	}
+}
+
+@PART[impp_scoopS0]
+{
+	@MODEL
+	{
+		@model = ImpulseParty/Parts/Things/scoopS0Loop
+	}
+	!MODULE[ModuleAnimationGroup]:NEEDS[!Restock] {}
+	!MODULE[ModuleRestockISRUAnimation]:NEEDS[Restock] {}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		animationName = spinS0Loop
+		actionGUIName = Toggle Spin
+		startEventGUIName = Spin Start
+		endEventGUIName = Spin Stop
+		allowAnimationWhileShielded = False
+		eventAvailableEditor = False
+		layer = 1
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		animationName = scoopLights_S0
+		actionGUIName = Toggle Lights
+		startEventGUIName = Lights On
+		endEventGUIName = Lights Off
+		allowAnimationWhileShielded = False
+		layer = 2
+	}
+}
