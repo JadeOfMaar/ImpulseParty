@@ -1,5 +1,9 @@
 # Impulse Party
 
+## 0.5 (WIP)
+* Added Nav Deflector parts (WIP), including separate models for the shield projection standalone.
+* Raise heat tolerances for fusion reactors, Mk1 warp core and Mk2 batteries.
+
 ## 0.4
 * Added 0.625m parts: Priax series warp nacelles and Kelvin series scoop.
 * Added Extras:
