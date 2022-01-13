@@ -1,9 +1,0 @@
-@PART[impp_shield*]
-{
-	@MODULE[ModuleAnimationGroup]:NEEDS[Restock]
-	{
-		@name = ModuleRestockISRUAnimation
-		needsEC = True
-		waitForComplete = True
-	}
-}
