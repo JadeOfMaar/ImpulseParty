@@ -1,7 +1,7 @@
 # Impulse Party
 
-## 0.5 (WIP)
-* Added Nav Deflector parts (WIP), including separate models for the shield projection standalone.
+## 0.5
+* Added Nav Deflector parts, including separate models for the shield projection standalone.
 * Raise heat tolerances for fusion reactors, Mk1 warp core and Mk2 batteries.
 
 ## 0.4
