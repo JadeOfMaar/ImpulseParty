@@ -1,5 +1,11 @@
 # Impulse Party
 
+## 0.6
+* Added and fixed Tweakscale for nav dishes.
+* Fixed attachment symmetry problems which leads to undesired reverse thrust situations and one or more engines burning off the part they are attached to. This may cause invalid orientation of some attachments of the engine on some crafts.
+* Fixed StoredCharge conversion ratio in Mk2 NF-alike capacitors.
+* Updated shields config to not cause the multiple ModuleAblator issue with OPT.
+
 ## 0.5
 * Added Nav Deflector parts, including separate models for the shield projection standalone.
 * Raise heat tolerances for fusion reactors, Mk1 warp core and Mk2 batteries.
