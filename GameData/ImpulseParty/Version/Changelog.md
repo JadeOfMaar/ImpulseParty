@@ -1,5 +1,18 @@
 # Impulse Party
 
+## 0.6.1
+* Fixed bulkheadProfile values in some parts.
+* Updated dependency from WildBlueTools to WBIResources.
+* Updated files for the part upgrades. Those work properly again.
+* Updated minimal state fusion reactor characteristics:
+  * If Sterling style or WBI style not activated, default to this.
+  * Will require FusionPellets and produce ElectricCharge, scaled by part volume vs FFT 2.5m fusion reactor.
+  * Reduced ElectroPlasma (updated to wbiElectroPlasma) storage. This fixes the issue of the reactors generating a huge mass while running and defeating a warp ship's WarpCapacity.
+* Updated WBI style fusion reactor characteristics:
+  * They primarily produce only ElectroPlasma now and have additional converters for ElectroPlasma Decay and ElectricCharge extration, known as EPS Transformer.
+  * EPS Transformer is superior to WBI fusion's ElectricCharge byproduct rate, very useful for folks who need the extra ElectricCharge and don't care much about the WBI plasma RCS.
+  * Removed FusionPellets storage to accomodate the EPS aspects.
+
 ## 0.6
 * Added and fixed Tweakscale for nav dishes.
 * Fixed attachment symmetry problems which leads to undesired reverse thrust situations and one or more engines burning off the part they are attached to. This may cause invalid orientation of some attachments of the engine on some crafts.
